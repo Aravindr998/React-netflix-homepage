@@ -1,0 +1,27 @@
+.dropdown-extended{
+  background-color: #303030;
+  padding: 1.7rem;
+  font-size: 1.7rem;
+  max-height: 1200px;
+  transition: max-height 0.3s;
+}
+/* .close{
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+div:has(>div.close){
+  overflow: hidden;
+  max-height: 0;
+}
+
+@media(max-width: 950px){
+  .dropdown-extended{
+    font-size: 1.3rem;
+  }
+}
+@media(max-width: 400px){
+  .dropdown-extended{
+    font-size: 1rem;
+  }
+}

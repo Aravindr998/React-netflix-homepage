@@ -1,0 +1,31 @@
+.language-div{
+  display: inline-block;
+  position: relative;
+
+}
+.language-div::before{
+  position: absolute;
+  content: '';
+  background: url('../../assets/images/global.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1rem;
+  height: 1rem;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-0.5rem);
+}
+
+select[name=languageSelect]{
+  padding: 0.5rem 0.6rem 0.5rem 1.5rem;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+select[name=languageSelect] option{
+  background-color: grey;
+}

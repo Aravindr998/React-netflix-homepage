@@ -1,0 +1,50 @@
+.mobile{
+  position: relative;
+}
+.mobile-img{
+  width: 80%;
+  min-width: 25rem;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid hsla(0,0%,100%,.25);
+  border-radius: 0.75em;
+  position: absolute;
+  bottom: 8%;
+  left: 40%;
+  transform: translateX(-50%);
+  background-color: black;
+  min-width: 20em;
+  padding: 0.5em 0.75em;
+}
+.box img{
+  max-width: 100%;
+}
+
+.box-img{
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+.loading-img{
+  width: 3.5rem;
+}
+
+.st{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.downloading{
+  color: #0071eb;
+}
+.text{
+  flex: 1;
+}
+
+@media(max-width: 950px){
+  .box{
+    left: 50%;
+    min-width: 15em;
+  }
+}

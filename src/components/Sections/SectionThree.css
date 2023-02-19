@@ -1,0 +1,22 @@
+.mac{
+  flex: 1;
+  position: relative;
+}
+.mac img{
+  width: 100%;
+}
+
+.mac div{
+  width: 60%;
+  position: absolute;
+  top: 7%;
+  left: 19%;
+  z-index: -1;
+}
+
+.mac video{
+  width: 100%;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}

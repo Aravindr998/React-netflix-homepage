@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+* {
+  font-family: Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  padding: 2rem 4rem;
+  border-bottom: 8px solid #222
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background {
+  background: rgba(0,0,0,.4);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("./assets/images/netflixbg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.main-section{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 4rem;
+}
+.backdrop{
+  background: rgba(0,0,0,.4);
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media(max-width: 950px){
+  .row{
+    padding: 2rem 1rem;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+@media(max-width: 400px){
+  .main-section{
+    padding: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .row{
+    padding: 2rem 0.8rem;
   }
+
 }

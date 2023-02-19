@@ -1,0 +1,29 @@
+.main-content{
+  color: white;
+  max-width: 40rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.main-content h1{
+  font-size: 3rem;
+}
+
+.main-content h3{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.main-content h5{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media(max-width: 400px){
+  .main-content h1{
+    font-size: 2rem
+  }
+  .main-content{
+    padding: 1rem 0rem;
+  }
+}

@@ -1,0 +1,29 @@
+.svg{
+  width: 1.7rem;
+  fill: white;
+}
+.closed{
+  transform: rotate(-45deg);
+}
+.dropdown-button{
+  display: flex;
+  background-color: #303030;
+  color: white;
+  flex: 1;
+  padding: 1.5rem 1.3rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-bottom: solid 1.5px black;
+}
+
+@media(max-width: 950px){
+  .dropdown-button{
+    font-size: 1.1rem;
+  }
+  .svg{
+    width: 1rem;
+  }
+}

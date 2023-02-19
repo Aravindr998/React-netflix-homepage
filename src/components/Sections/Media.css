@@ -1,0 +1,21 @@
+.tv{
+  flex: 1;
+  position: relative;
+  z-index: 1000;
+}
+.tv div{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  z-index: -1;
+  width: 75%;
+}
+.tv img{
+  width: 100%;
+}
+.tv video{
+  width: 100%;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}

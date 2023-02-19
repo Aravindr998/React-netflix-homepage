@@ -1,0 +1,22 @@
+.navbar-logo{
+  width: 9rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-signin-button{
+  margin-left: 2.5rem;
+}
+
+@media(max-width: 950px){
+  nav>div{
+    display: flex;
+  }
+  .navbar-signin-button{
+    margin-left: 0.5rem;
+  }
+  .navbar-logo{
+    width: 6rem;
+  }
+}
